@@ -3,3 +3,10 @@ body {
     color: indigo;
     font-family: 'Merriweather', serif;
 }
+.Source {
+    font-size: 12px;
+    color: blueviolet;
+}
+figcaption {
+    font-size: 22px;
+}
