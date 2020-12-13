@@ -1,12 +1,29 @@
 body {
-    background-color: grey;
-    color: indigo;
+    background-color: #241F26;
+    color: #D9B13B;
     font-family: 'Merriweather', serif;
 }
 .Source {
     font-size: 12px;
-    color: blueviolet;
+    color: #D96A29;
 }
 figcaption {
     font-size: 22px;
+}
+article#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    width: 96vw;
+    margin: 0 auto;
+}
+figure {
+    width: 200xp;
+    background-color: #A61F2B;
+    padding: .7em;
+    border: .4em solid #A63C24;
+    margin: .5rem;
+}
+figure img {
+    width: 100%;
+    max-width: 100%;
 }
